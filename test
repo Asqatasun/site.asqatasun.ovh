@@ -1,0 +1,11 @@
+--2013-06-27 14:32:06--  http://ko.wikipedia.org/wiki/%EC%9B%B9_%EC%A0%91%EA%B7%BC%EC%84%B1
+Resolving ko.wikipedia.org (ko.wikipedia.org)... 91.198.174.225, 2620:0:862:ed1a::1
+Connecting to ko.wikipedia.org (ko.wikipedia.org)|91.198.174.225|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 28638 (28K) [text/html]
+Saving to: `\354%9B\271_\354\240%91근\354%84\261'
+
+     0K .......... .......... .......                         100% 4.37M=0.006s
+
+2013-06-27 14:32:06 (4.37 MB/s) - `\354%9B\271_\354\240%91근\354%84\261' saved [28638/28638]
+

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr" webdriver="true">
+
+<head>
+</head>
+<body>
+<h1 id="title1">Titre niveau 1</h1>
+<span>Change the size of the window and reload page</span>
+<span>Under 1024 width size, a h2 tag is added before the H1 </span>
+</body>
+<script>
+    var body = document.body;
+    var newH2 = document.createElement("h2");
+    newH2.innerHTML = 'Titre niveau 2 ' + window.innerWidth;
+    newH2.id='title2';
+    body.insertBefore(newH2,body.firstChild );
+	var img = document.createElement("img");
+img.src='https://pbs.twimg.com/media/B9kwmiPIUAIEZSl.jpg';
+body.insertBefore(img,body.firstChild);
+</script>
+</html>

@@ -1,0 +1,8 @@
+AuthUserFile /etc/apache2/.htpasswd-tgqa
+AuthGroupFile /dev/null
+AuthName "Auth"
+AuthType Basic
+
+<Limit GET POST>
+require valid-user
+</Limit>
