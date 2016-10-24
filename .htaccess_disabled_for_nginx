@@ -1,4 +1,4 @@
-AuthUserFile /etc/apache2/.htpasswd-tgqa
+AuthUserFile /etc/nginx/.htpasswd-asqatasun.ovh
 AuthGroupFile /dev/null
 AuthName "Auth"
 AuthType Basic
